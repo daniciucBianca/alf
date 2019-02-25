@@ -1,0 +1,12 @@
+Bonus Complex;3
+add;Add;addition 2 2 5 6 complex
+add_float;Add Float;addition 2 2.3 5.4 6 complex
+add_number;Add With Number;addition 2 2 6 complex
+sub;Subtract;subtraction 2 2 5 6 complex
+sub_float;Substract Float;subtraction 2 2.3 5.4 6 complex
+mul;Multiply;multiply 2 2 5 6 complex
+mul_float;Multiply Float;multiply 2 2.3 5.4 6 complex
+mul_negative;Multiply Negative;multiply 2 2 5 -6 complex
+add_array;Add Array;addition 2 2 5 -6 5 7 3 -6 7 3 complex
+sub_array;Subtract Array;subtraction 2 2 5 -6 5 -7 3 6 7 3 complex
+mul_array;Multiply Array;multiply 2 2 5 -6 5 7 3 -6 7 3 complex

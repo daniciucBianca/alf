@@ -1,0 +1,17 @@
+Errors;5
+unknown;Unknown;compute 5 6
+add;Add;addition 7 
+subtract;Subtract;subtraction 6546 
+multiply;Multiply;multiply 56 
+divide;Divide;division 345 
+modulus;Modulus;modulo 534 
+sqrt;Square Root;sqrt 
+pow;Power;power 6
+pow_negative;Power Negative;power 6 
+abs;Absolute Positive; absolute 
+abs_negative;Absolute Negative; absolute 
+max;Maximum;maximum 546
+min;Minimum;minimum 534
+sort;Sort;sort 
+reverse;Reverse;reverse 
+unique;Unique;unique 
