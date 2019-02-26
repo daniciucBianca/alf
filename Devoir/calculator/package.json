@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Daniel Miu",
+  "author": "ALF",
   "license": "ISC",
   "dependencies": {
     "cowsay": "^1.2.1"
   },
   "devDependencies": {},
-  "description": "Daniel Miu\r 1220F"
+  "description": "ALF"
 }
