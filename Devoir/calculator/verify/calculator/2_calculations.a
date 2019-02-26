@@ -1,4 +1,4 @@
-Calculations;5
+Calculations;4
 add;Add;addition 7 8
 subtract;Subtract;subtraction 6546 534
 multiply;Multiply;multiply 56 34
@@ -10,3 +10,5 @@ pow_negative;Power Negative;power 6 -6
 abs;Absolute Positive; absolute 8
 abs_negative;Absolute Negative; absolute -8
 abs_float;Absolute Float; absolute -7.6
+sinus;Sinus; sinus 30
+cosinus;Cosinus; cosinus 45
