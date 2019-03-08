@@ -1,0 +1,43 @@
+& LOOP in WHILE
+
+INIT: $r 200
+INIT: $g 40
+INIT: $b 255
+
+INIT: $x1 25
+INIT: $y1 100
+INIT: $x2 200
+INIT: $y2 250
+
+INIT: $i 5
+
+WHILE: $i
+INIT: $j $i
+SET_COLOR:  $r $g $b pen
+SET_COLOR:  $r $g $b fill
+DRAW_RECTANGLE: $x1 $y1 $x2 $y2
+INIT: $x $x1
+ADDITION: $x 85
+INIT: $y $y1
+ADDITION: $y 200
+INIT: $radius 50
+FOR_LOOP: $j
+INIT: $a $j
+MODULO: $a 2
+IF: $a
+SET_COLOR:  200 40 255 pen
+SET_COLOR:  200 40 255 fill
+ELSE
+SET_COLOR:  160 200 95 pen
+SET_COLOR:  160 200 95 fill
+END
+DRAW_CIRCLE: $radius $x $y 
+ADDITION: $y 100
+REPEAT
+SUBTRACTION: $r 10
+ADDITION: $g 40
+SUBTRACTION: $b 40
+ADDITION: $x1 200
+ADDITION: $x2 200
+SUBTRACTION: $i 1
+REPEAT

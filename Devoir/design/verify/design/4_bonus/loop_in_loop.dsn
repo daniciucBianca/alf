@@ -1,0 +1,33 @@
+& LOOP in LOOP
+
+INIT: $i 5
+INIT: $j 30
+INIT: $x1 25
+INIT: $y1 100
+INIT: $x2 200
+INIT: $y2 250
+
+FOR_LOOP: $i
+SET_COLOR:  10 200 100 fill
+SET_COLOR:  10 200 100 pen
+DRAW_RECTANGLE: $x1 $y1 $x2 $y2
+INIT: $radius 60
+INIT: $y $y1
+ADDITION: $y 75
+INIT: $x $x1
+ADDITION: $x 85
+INIT: $r 200
+INIT: $g 10
+INIT: $b 200
+FOR_LOOP: $j
+SET_COLOR:  $r $g $b fill
+SET_COLOR:  $r $g $b pen
+DRAW_CIRCLE: $radius $x $y 
+SUBTRACTION: $radius 2
+SUBTRACTION: $r 5
+ADDITION: $g 2
+SUBTRACTION: $b 5
+REPEAT
+ADDITION: $x1 200
+ADDITION: $x2 200
+REPEAT

@@ -1,0 +1,17 @@
+&Drawing
+INIT: $x 100
+INIT: $y 200
+DRAW_LINE:  $x $y location
+SET_COLOR:  0 0    255 pen
+ADDITION: $x 200
+DRAW_LINE:  $x $y location
+SET_COLOR:  255 0 0 pen
+SUBTRACTION: $x 100
+MULTIPLY: $y 2
+DRAW_LINE:  $x $y location
+DRAW_ELLIPSE:  100 location
+DRAW_CIRCLE:   $radius 30  50  
+DRAW_ELLIPSE: 200   400    100 150     
+SET_COLOR:    255 150 150 pen
+SET_COLOR:  0 0 255 fill
+DRAW_RECTANGLE: 500 500  800 1000

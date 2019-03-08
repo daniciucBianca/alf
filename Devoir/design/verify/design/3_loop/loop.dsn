@@ -1,0 +1,9 @@
+& LOOP
+INIT: $a        80
+INIT: $b 160
+FOR_LOOP:  3
+   SET_COLOR:  $b 0 200 fill
+SUBTRACTION: $b    40
+DRAW_CIRCLE: $a 400   400 
+   SUBTRACTION: $a 20
+REPEAT

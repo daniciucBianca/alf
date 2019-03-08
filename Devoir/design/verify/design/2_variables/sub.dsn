@@ -1,0 +1,4 @@
+&Sub Variable
+INIT: $s 10
+SUBTRACTION: $s 5
+DRAW_CIRCLE: $s 120 120 

@@ -1,0 +1,2 @@
+LINE 12 HAS ERROR: DRAW_ELLIPSE needs 4 parameters, you wrote 2
+LINE 13 HAS ERROR: DRAW_CIRCLE parameter 1 needs to be a number or a variable, you wrote $radius

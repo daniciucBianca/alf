@@ -1,0 +1,4 @@
+&Mul Variable
+INIT: $s 10
+MULTIPLY: $s 6
+DRAW_CIRCLE: $s 120 120 

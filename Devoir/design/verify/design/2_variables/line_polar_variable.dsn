@@ -1,0 +1,4 @@
+& Line polar with variables
+INIT: $a 450
+INIT: $b 300
+DRAW_LINE:  $a $b polar

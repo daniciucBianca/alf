@@ -1,0 +1,4 @@
+&Set Variable
+INIT: $s 100
+MODULO: $s 60
+DRAW_CIRCLE: $s 120 120 

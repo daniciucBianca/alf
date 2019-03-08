@@ -1,0 +1,4 @@
+&Add Variable
+INIT: $s 10
+ADDITION: $s 5
+DRAW_CIRCLE: $s 120 120 

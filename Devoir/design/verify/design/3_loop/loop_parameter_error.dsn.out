@@ -1,0 +1,2 @@
+LINE 4 HAS ERROR: FOR_LOOP needs 1 parameters, you wrote 2
+LINE 7 HAS ERROR: REPEAT and no FOR_LOOP or WHILE

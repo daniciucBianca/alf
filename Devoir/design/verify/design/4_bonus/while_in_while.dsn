@@ -1,0 +1,37 @@
+& WHILE in WHILE
+
+INIT: $i 5
+
+INIT: $r 100
+INIT: $g 20
+INIT: $b 50
+
+INIT: $r1 90
+INIT: $r2 30
+
+INIT: $x1 25
+INIT: $y1 100
+INIT: $x2 200
+INIT: $y2 250
+
+WHILE: $i
+INIT: $j 3
+INIT: $x $x1
+ADDITION: $x 85
+INIT: $y 300
+SET_COLOR:  $r $g $b pen
+SET_COLOR:  $r $g $b fill
+DRAW_RECTANGLE: $x1 $y1 $x2 $y2
+WHILE: $j
+DRAW_ELLIPSE:                                        $r1 $r2 $x $y 
+ADDITION: $y 100
+SUBTRACTION: $j 1
+REPEAT
+ADDITION: $x 200
+ADDITION: $r 10
+ADDITION: $g 40
+ADDITION: $b 20
+ADDITION: $x1 200
+ADDITION: $x2 200
+SUBTRACTION: $i 1
+REPEAT

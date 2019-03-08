@@ -1,0 +1,13 @@
+& LOOP variable
+
+INIT: $loop 30
+INIT: $a 100
+INIT: $b 200
+FOR_LOOP: $loop
+SET_COLOR:  20 0 $b fill
+SET_COLOR:  20 0 $b pen
+DRAW_CIRCLE: $a 200 100 
+SUBTRACTION: $a 3
+SUBTRACTION: $b 10
+REPEAT
+

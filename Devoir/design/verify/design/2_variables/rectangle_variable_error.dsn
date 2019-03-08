@@ -1,0 +1,5 @@
+& Rectangle with variables error
+INIT: $x1 20
+INIT: $y1 40
+INIT: $x2 150
+DRAW_RECTANGLE: $x1 $x2 $y1 $y2

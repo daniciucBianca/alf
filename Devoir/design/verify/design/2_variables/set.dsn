@@ -1,0 +1,3 @@
+&Set Variable
+INIT: $s 10
+DRAW_CIRCLE: $s 120 120 

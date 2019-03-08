@@ -1,0 +1,14 @@
+&Add and multiply
+INIT: $x 10
+INIT: $y  10
+LOCATION:  0 $y
+MULTIPLY: $y 10
+DRAW_LINE:  $x $y location
+ADDITION: $x 50
+LOCATION: $x $y
+ADDITION: $x 100
+DRAW_LINE:  $x $y location
+ADDITION: $x 50
+LOCATION: $x $y
+ADDITION: $x 100
+DRAW_LINE:  $x $y location

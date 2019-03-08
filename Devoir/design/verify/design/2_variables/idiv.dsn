@@ -1,0 +1,4 @@
+&IDiv Variable
+INIT: $s 10
+IDIVISION: $s 3
+DRAW_CIRCLE: $s 120 120 

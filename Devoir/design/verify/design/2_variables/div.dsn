@@ -1,0 +1,4 @@
+&Div Variable
+INIT: $s 10
+DIVISION: $s 2
+DRAW_CIRCLE: $s 120 120 

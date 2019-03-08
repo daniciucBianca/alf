@@ -1,0 +1,5 @@
+& Line
+LOCATION:   0 10
+DRAW_LINE:  100 10 location
+DRAW_LINE:  200 10 location
+DRAW_LINE:      300 10 location

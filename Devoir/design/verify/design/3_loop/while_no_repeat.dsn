@@ -1,0 +1,16 @@
+& while no repeat
+INIT: $var 200
+
+WHILE: $var
+SET_COLOR:  200 10 30 fill
+DRAW_CIRCLE: 60 200 200 
+SET_COLOR:  10 40 250 pen
+DRAW_LINE:  100 150 polar
+IDIVISION: $var 100
+
+IF: $var
+DRAW_ELLIPSE: 100 20 400 400 
+LOCATION: 300 300
+SET_COLOR:  0 40 0 pen
+DRAW_LINE:  700 500 location
+END

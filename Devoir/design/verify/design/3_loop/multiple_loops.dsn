@@ -1,0 +1,26 @@
+& Multiple LOOPs
+
+INIT:   $loop 40
+INIT:   $a    300
+
+INIT:   $r 100
+INIT: $g   20
+INIT: $b      50
+
+FOR_LOOP: $loop
+SET_COLOR:  $r $g   $b fill
+DRAW_CIRCLE: $a 400 350 
+SUBTRACTION: $a 7
+ADDITION: $g 3
+ADDITION: $b 4
+SUBTRACTION: $r 2
+REPEAT
+
+INIT: $x 70
+INIT: $y 100
+INIT: $z 130
+FOR_LOOP: 2
+DRAW_RECTANGLE: $x $y $z $x
+MULTIPLY: $x 2
+DIVISION: $y 2
+REPEAT

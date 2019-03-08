@@ -1,0 +1,16 @@
+& while error parameters
+INIT: $a 10
+
+WHILE: $a 10    30
+IDIVISION: $a 3
+SET_COLOR:  100 100 0 blue
+SET_COLOR:  255 0 100 pen
+DRAW_RECTANGLE: 100 200 200 100
+DRAW_LINE:  600 100 location
+REPEAT
+
+IF: $a
+SET_COLOR:  255 0 0 fill
+SET_COLOR:  0 0 300 pen
+DRAW_ELLIPSE: 150 50 400 400 
+END

@@ -1,0 +1,4 @@
+& COLOR error
+
+   SET_COLOR:  200 0 30 color
+DRAW_CIRCLE:   50 100  50     

@@ -1,0 +1,1 @@
+LINE 3 HAS ERROR: SET_COLOR parameter 4 needs to be one of (pen, fill), you wrote color

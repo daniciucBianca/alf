@@ -1,0 +1,31 @@
+& if else
+INIT: $x 10
+INIT: $i 3
+WHILE: $i
+ LOCATION: $x 0
+ INIT: $aux $i
+ MODULO:  $aux 2
+ & linie para
+ IF: $aux
+  DRAW_LINE:  $x 100 location
+  DRAW_CIRCLE:  100 $x 300 
+  LOCATION: $x 600
+  DRAW_LINE:  $x 700 location
+  DRAW_CIRCLE: 100 $x 900 
+  LOCATION: $x 1100
+  DRAW_LINE:  $x 1200 location
+ & linie impara
+ ELSE
+  DRAW_CIRCLE: 100 $x 100 
+  LOCATION: $x 300
+  DRAW_LINE:  $x 400 location
+  DRAW_CIRCLE: 100 $x 600 
+  LOCATION: $x 800
+  DRAW_LINE:  $x 900 location
+  DRAW_CIRCLE: 100 $x 1100 
+ END
+ SUBTRACTION: $i 1
+ ADDITION: $x 300
+REPEAT
+LOCATION: 0 1000
+DRAW_LINE:  1500   1000 location
