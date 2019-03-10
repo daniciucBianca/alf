@@ -1,3 +1,3 @@
 LINE 2 HAS ERROR: WHILE parameter 1 needs to be a variable, you wrote 2
 LINE 6 HAS ERROR: DRAW_ELLIPSE needs 4 parameters, you wrote 3
-LINE 7 HAS ERROR: REPEAT and no FOR_LOOP or WHILE
+LINE 7 HAS ERROR: REPEAT and no WHILE/FOR_LOOP

@@ -1,4 +1,4 @@
 LINE 4 HAS ERROR: WHILE needs 1 parameters, you wrote 3
 LINE 6 HAS ERROR: SET_COLOR parameter 4 needs to be one of (pen, fill), you wrote blue
-LINE 10 HAS ERROR: REPEAT and no FOR_LOOP or WHILE
+LINE 10 HAS ERROR: REPEAT and no WHILE/FOR_LOOP
 LINE 14 HAS ERROR: SET_COLOR parameter 3 needs to be a number or a variable between [0, 255], you wrote 300
