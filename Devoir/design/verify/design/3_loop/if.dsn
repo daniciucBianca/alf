@@ -1,7 +1,7 @@
 & If
 
-INIT: %a 2
-IF: %a
+INIT: $a 2
+IF: $a
 SET_COLOR:  200 0 100 fill
 DRAW_ELLIPSE: 150 100 300 300 
 ELSE
