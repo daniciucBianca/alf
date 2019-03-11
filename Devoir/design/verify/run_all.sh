@@ -42,6 +42,9 @@ else
 	then
 		echo "Please review your code, you have jshint errors"
 	else
+	elif !which compare &> /dev/null;
+	then
+	else
 		cd -
 
 		# for file in calculator/*.a
@@ -134,50 +137,44 @@ else
 						printf '%s' "$strtitle"
 						pad=$(printf '%0.1s' "."{1..60})
 						padlength=65
-						if which compare &> /dev/null;
+						compare -verbose -metric AE "$originalsvgfile" "$outputsvgfile" > /dev/null 2> "$reportfile" - 
+						tail -n 5 "$reportfile" > "$reportfile.tmp"
+						mv "$reportfile.tmp" "$reportfile"
+						red_pixels=`cat "$reportfile" | grep red | head -1 | cut -d ":" -f 2 | tr -d " "`
+						green_pixels=`cat "$reportfile" | grep green | head -1 | cut -d ":" -f 2 | tr -d " "`
+						blue_pixels=`cat "$reportfile" | grep blue | head -1 | cut -d ":" -f 2 | tr -d " "`
+						alpha_pixels=`cat "$reportfile" | grep alpha | head -1 | cut -d ":" -f 2 | tr -d " "`
+						all_pixels=`cat "$reportfile" | grep all | head -1 | cut -d ":" -f 2 | tr -d " "`
+						# echo "all pixels " "{"$all_pixels"}"
+						if test "$all_pixels" != "" && [[ "$all_pixels" -le "$PIXELS" ]];
 						then
-							compare -verbose -metric AE "$originalsvgfile" "$outputsvgfile" > /dev/null 2> "$reportfile" - 
-							tail -n 5 "$reportfile" > "$reportfile.tmp"
-							mv "$reportfile.tmp" "$reportfile"
-							red_pixels=`cat "$reportfile" | grep red | head -1 | cut -d ":" -f 2 | tr -d " "`
-							green_pixels=`cat "$reportfile" | grep green | head -1 | cut -d ":" -f 2 | tr -d " "`
-							blue_pixels=`cat "$reportfile" | grep blue | head -1 | cut -d ":" -f 2 | tr -d " "`
-							alpha_pixels=`cat "$reportfile" | grep alpha | head -1 | cut -d ":" -f 2 | tr -d " "`
-							all_pixels=`cat "$reportfile" | grep all | head -1 | cut -d ":" -f 2 | tr -d " "`
-							# echo "all pixels " "{"$all_pixels"}"
-							if test "$all_pixels" != "" && [[ "$all_pixels" -le "$PIXELS" ]];
+							cat "$originalfile" | sort > output/sorted_original
+							cat "$outputfile" | sort > output/sorted_output
+							if diff --ignore-space-change --side-by-side --suppress-common-lines output/sorted_original output/sorted_output &> "$errorsfile"
 							then
-								cat "$originalfile" | sort > output/sorted_original
-								cat "$outputfile" | sort > output/sorted_output
-								if diff --ignore-space-change --side-by-side --suppress-common-lines output/sorted_original output/sorted_output &> "$errorsfile"
-								then
-									str="ok (""$P""p)"
-									passed=$(($passed+1))
-									POINTS=$(($POINTS+$P))
-								else
-									str="error (0p)"
-									failed=$(($failed+1))
-									echo "--------------" >> $errorslist 
-									echo $strtitle >> $errorslist
-									head -10 "$errorsfile" >> $errorslist
-								fi
+								str="ok (""$P""p)"
+								passed=$(($passed+1))
+								POINTS=$(($POINTS+$P))
 							else
 								str="error (0p)"
 								failed=$(($failed+1))
 								echo "--------------" >> $errorslist 
 								echo $strtitle >> $errorslist
-								if [ "$all_pixels" != "" ];
-								then
-									echo "Pixels that are different" >> $errorslist
-									head -10 "$reportfile" >> $errorslist
-								else
-									echo "Your SVG file has errors" >> $errorslist
-									head -10 "$reportfile" >> $errorslist
-								fi
+								head -10 "$errorsfile" >> $errorslist
 							fi
 						else
-							echo "compare is not installed, please install it"
-							exit -1
+							str="error (0p)"
+							failed=$(($failed+1))
+							echo "--------------" >> $errorslist 
+							echo $strtitle >> $errorslist
+							if [ "$all_pixels" != "" ];
+							then
+								echo "Pixels that are different" >> $errorslist
+								head -10 "$reportfile" >> $errorslist
+							else
+								echo "Your SVG file has errors" >> $errorslist
+								head -10 "$reportfile" >> $errorslist
+							fi
 						fi
 						total=$(($total+1))
 						printf '%*.*s' 0 $((padlength - ${#strtitle} - ${#str} )) "$pad"
