@@ -134,7 +134,7 @@ else
 						printf '%s' "$strtitle"
 						pad=$(printf '%0.1s' "."{1..60})
 						padlength=65
-						if which compare;
+						if which compare &> /dev/null;
 						then
 							compare -verbose -metric AE "$originalsvgfile" "$outputsvgfile" > /dev/null 2> "$reportfile" - 
 							tail -n 5 "$reportfile" > "$reportfile.tmp"
