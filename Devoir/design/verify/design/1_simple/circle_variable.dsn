@@ -1,4 +1,4 @@
-& Circle Variable
+& Circle
 INIT: $a 70
 SET_COLOR:  200 30 45 fill
 DRAW_CIRCLE: $a 120 11 
