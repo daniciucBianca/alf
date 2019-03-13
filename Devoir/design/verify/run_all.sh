@@ -42,8 +42,8 @@ else
 	then
 		echo "Please review your code, you have jshint errors"
 	elif !which compare &> /dev/null;
-		echo "compare is not installed, please install it"
 	then
+		echo "compare is not installed, please install it"
 	else
 		cd -
 
