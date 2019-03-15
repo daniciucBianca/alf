@@ -7,7 +7,7 @@ POINTS=0
 PIXELS=100
 
 errorslist=$1/errors.out
-rm -f $errorslist
+rm -f "$errorslist"
 
 cd "$1"
 
@@ -89,9 +89,9 @@ else
 		# 			else
 		# 				str="error (0p)"
 		# 				failed=$(($failed+1))
-		# 				echo "--------------" >> $errorslist 
-		# 				echo $strtitle >> $errorslist
-		# 				head -10 "$errorsfile" >> $errorslist
+		# 				echo "--------------" >> "$errorslist" 
+		# 				echo $strtitle >> "$errorslist"
+		# 				head -10 "$errorsfile" >> "$errorslist"
 		# 			fi
 		# 			rm original
 		# 			total=$(($total+1))
@@ -158,22 +158,22 @@ else
 							else
 								str="error (0p)"
 								failed=$(($failed+1))
-								echo "--------------" >> $errorslist 
-								echo $strtitle >> $errorslist
-								head -10 "$errorsfile" >> $errorslist
+								echo "--------------" >> "$errorslist" 
+								echo $strtitle >> "$errorslist"
+								head -10 "$errorsfile" >> "$errorslist"
 							fi
 						else
 							str="error (0p)"
 							failed=$(($failed+1))
-							echo "--------------" >> $errorslist 
-							echo $strtitle >> $errorslist
+							echo "--------------" >> "$errorslist" 
+							echo $strtitle >> "$errorslist"
 							if [ "$all_pixels" != "" ];
 							then
-								echo "Pixels that are different" >> $errorslist
-								head -10 "$reportfile" >> $errorslist
+								echo "Pixels that are different" >> "$errorslist"
+								head -10 "$reportfile" >> "$errorslist"
 							else
-								echo "Your SVG file has errors" >> $errorslist
-								head -10 "$reportfile" >> $errorslist
+								echo "Your SVG file has errors" >> "$errorslist"
+								head -10 "$reportfile" >> "$errorslist"
 							fi
 						fi
 						total=$(($total+1))
@@ -194,6 +194,6 @@ else
 	if [ "$passed" != "$total" ];
 	then
 		echo -e "Original file						      | Your file" 1>&2
-		cat $errorslist 1>&2
+		cat "$errorslist" 1>&2
 	fi
 fi

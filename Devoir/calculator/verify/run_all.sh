@@ -6,7 +6,7 @@ rm -rf output/*
 POINTS=0
 
 errorslist=$1/errors.out
-rm -f $errorslist
+rm -f "$errorslist"
 
 cd "$1"
 
@@ -89,9 +89,9 @@ else
 					else
 						str="error (0p)"
 						failed=$(($failed+1))
-						echo "--------------" >> $errorslist 
-						echo $strtitle >> $errorslist
-						head -10 "$errorsfile" >> $errorslist
+						echo "--------------" >> "$errorslist "
+						echo $strtitle >> "$errorslist"
+						head -10 "$errorsfile" >> "$errorslist"
 					fi
 					rm original
 					total=$(($total+1))
@@ -112,6 +112,6 @@ else
 	if [ "$passed" != "$total" ];
 	then
 		echo -e "Original file						      | Your file" 1>&2
-		cat $errorslist 1>&2
+		cat "$errorslist 1>&2"
 	fi
 fi
