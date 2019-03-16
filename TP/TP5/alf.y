@@ -12,13 +12,11 @@
               on the site) */
 %%
 
-start:
-    expr {
-                $$ = $1;
-                return $$;
-             }; 
-expr: 
-    NUMBER  {
-                console.log( $1 );
-            }
-;
+start: expr { 
+                 return $$; 
+            };
+ 
+expr:  NUMBER 	{ 
+	  		console.log ('number '+$1); 
+	  		$$ = $1; 
+	  	};
