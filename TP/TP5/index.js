@@ -7,7 +7,7 @@ var parser = require ('./alf.js').parser;
 try
 {
     // run the parser using a string
-	parser.parse ('120');
+	parser.parse ('22');
 }
 catch (e)
 {

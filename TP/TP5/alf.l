@@ -1,5 +1,5 @@
-WS            \s+ 
-Digit         [0-9]
+Ws         \s+
+Digit      [0-9]
 /*TODO 1 -- declare regular expressions for Strings and real numbers */
 
 
@@ -8,7 +8,7 @@ Digit         [0-9]
 /*TODO 2 -- set your rules for math expressions */
 /*TODO 4 -- set rules for '(' -> LP(left paranthesis) and ')' -> RP(right paranthesis)*/
 %%
-
-{WS}+                   { /*  whitespace */ }
-{Digit}+                { return 'NUMBER'; }
-
+"-"        { return '-'; }
+"+"        { return '+'; }
+{Ws}       { /* empty space */ }
+{Digit}+   { return 'NUMBER'; }
