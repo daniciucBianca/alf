@@ -136,7 +136,7 @@ else
 						printf '%s' "$strtitle"
 						pad=$(printf '%0.1s' "."{1..60})
 						padlength=65
-						if timeout 1 node "$1/$MAIN" "$inputfile" "$outputsvgfile" > "$outputfile";
+						if timeout 5 node "$1/$MAIN" "$inputfile" "$outputsvgfile" > "$outputfile";
 						then
 							compare -verbose -metric AE "$originalsvgfile" "$outputsvgfile" > /dev/null 2> "$reportfile" - 
 							tail -n 5 "$reportfile" > "$reportfile.tmp"
