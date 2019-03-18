@@ -132,7 +132,7 @@ else
 						then
 							title=`basename $file`
 						fi
-						node "$1/$MAIN" "$inputfile" "$outputsvgfile" > "$outputfile"
+						timeout 10 node "$1/$MAIN" "$inputfile" "$outputsvgfile" > "$outputfile"
 						strtitle="Verifying $title"
 						printf '%s' "$strtitle"
 						pad=$(printf '%0.1s' "."{1..60})
