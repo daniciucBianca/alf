@@ -61,8 +61,14 @@ typings/
 .next
 
 package.json
+package-lock.json
 main.js
 
 #Teo test directories
 TP/TP4_new/
 TP/TP5_new/
+
+# design
+output/
+
+*.zip
