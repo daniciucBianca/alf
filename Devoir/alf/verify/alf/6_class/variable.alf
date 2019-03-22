@@ -1,0 +1,8 @@
+{Variable declaration of type}
+struct school
+	property name:string;
+	property private:boolean;
+	property type:integer;
+end;
+
+def s:school;

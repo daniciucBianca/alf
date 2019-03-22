@@ -1,0 +1,6 @@
+{Class definition}
+struct school
+	property name:string;
+	property private:boolean;
+	property type:integer;
+end;

@@ -1,0 +1,12 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "struct",
+      "title": "product",
+      "properties": [],
+      "messages": []
+    }
+  ],
+  "line": 3
+}

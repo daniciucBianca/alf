@@ -1,0 +1,14 @@
+{Power function}
+
+fn power:integer (a:integer, n:integer) 		
+begin
+	def p:integer = 1;
+	for i from 1 to n run
+		p = p * a;
+	end;
+	return a;
+end;
+
+def n = 0;
+
+n =  power (a:6, n:5);

@@ -1,0 +1,4 @@
+{Variable value Attribution}
+def n:integer;
+
+n = 6;

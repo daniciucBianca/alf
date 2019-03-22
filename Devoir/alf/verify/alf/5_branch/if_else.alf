@@ -1,0 +1,9 @@
+{If}
+
+def n:integer;
+
+if n > 2 then
+	n = n + 1;
+else
+	n = n * 1;
+end;

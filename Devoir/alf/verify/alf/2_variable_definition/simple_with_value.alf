@@ -1,0 +1,2 @@
+{Variable definition with value}
+def variable : integer = 0 ;

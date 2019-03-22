@@ -1,0 +1,46 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "struct",
+      "title": "school",
+      "properties": [
+        {
+          "type": "string",
+          "title": "name",
+          "value": {
+            "id": "value",
+            "type": "string",
+            "value": "Public Elementary School",
+            "line": 3
+          },
+          "line": 3
+        },
+        {
+          "type": "boolean",
+          "title": "private",
+          "value": {
+            "id": "value",
+            "type": "logic",
+            "value": false,
+            "line": 4
+          },
+          "line": 4
+        },
+        {
+          "type": "integer",
+          "title": "type",
+          "value": {
+            "id": "value",
+            "type": "integer",
+            "value": 0,
+            "line": 5
+          },
+          "line": 5
+        }
+      ],
+      "messages": []
+    }
+  ],
+  "line": 6
+}

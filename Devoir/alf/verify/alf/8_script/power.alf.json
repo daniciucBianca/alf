@@ -1,0 +1,139 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "message",
+      "title": "power",
+      "parameters": [
+        {
+          "type": "integer",
+          "id": "a",
+          "line": 3
+        },
+        {
+          "type": "integer",
+          "id": "n",
+          "line": 3
+        }
+      ],
+      "return_type": "integer",
+      "statements": [
+        {
+          "id": "def",
+          "elements": [
+            {
+              "type": "integer",
+              "title": "p",
+              "value": {
+                "id": "value",
+                "type": "integer",
+                "value": 1,
+                "line": 5
+              },
+              "line": 5
+            }
+          ],
+          "line": 5
+        },
+        {
+          "id": "for",
+          "variable": "i",
+          "from": {
+            "id": "value",
+            "type": "integer",
+            "value": 1,
+            "line": 6
+          },
+          "to": {
+            "id": "identifier",
+            "title": "n",
+            "line": 6
+          },
+          "statements": [
+            {
+              "id": "set",
+              "to": {
+                "id": "identifier",
+                "title": "p",
+                "line": 7
+              },
+              "from": {
+                "id": "exp",
+                "op": "*",
+                "left": {
+                  "id": "identifier",
+                  "title": "p",
+                  "line": 7
+                },
+                "right": {
+                  "id": "identifier",
+                  "title": "a",
+                  "line": 7
+                },
+                "line": 7
+              },
+              "line": 7
+            }
+          ],
+          "line": 8
+        },
+        {
+          "id": "return",
+          "value": {
+            "id": "identifier",
+            "title": "a",
+            "line": 9
+          },
+          "line": 9
+        }
+      ],
+      "line": 10
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "auto",
+          "title": "n",
+          "value": {
+            "id": "value",
+            "type": "integer",
+            "value": 0,
+            "line": 12
+          },
+          "line": 12
+        }
+      ],
+      "line": 12
+    },
+    {
+      "id": "set",
+      "to": {
+        "id": "identifier",
+        "title": "n",
+        "line": 14
+      },
+      "from": {
+        "id": "function_call",
+        "function": "power",
+        "parameters": {
+          "a": {
+            "id": "value",
+            "type": "integer",
+            "value": 6,
+            "line": 14
+          },
+          "n": {
+            "id": "value",
+            "type": "integer",
+            "value": 5,
+            "line": 14
+          }
+        },
+        "line": 14
+      },
+      "line": 14
+    }
+  ],
+  "line": 14
+}

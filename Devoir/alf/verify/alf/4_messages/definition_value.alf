@@ -1,0 +1,8 @@
+{Message definition with statements and value}
+
+
+fn sum:integer (n1:integer, n2:integer)
+begin
+	def s:integer = n1 + n2;
+	return s;
+end;

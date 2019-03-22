@@ -1,0 +1,6 @@
+{Register value}
+
+#register NUMBER 100
+
+[module print text:NUMBER]
+

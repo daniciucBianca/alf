@@ -1,0 +1,50 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "message",
+      "title": "sum",
+      "parameters": [
+        {
+          "type": "integer",
+          "id": "n1",
+          "line": 4
+        },
+        {
+          "type": "integer",
+          "id": "n2",
+          "line": 4
+        }
+      ],
+      "return_type": "integer",
+      "statements": [
+        {
+          "id": "set",
+          "to": {
+            "id": "identifier",
+            "title": "s",
+            "line": 6
+          },
+          "from": {
+            "id": "exp",
+            "op": "+",
+            "left": {
+              "id": "identifier",
+              "title": "n1",
+              "line": 6
+            },
+            "right": {
+              "id": "identifier",
+              "title": "n2",
+              "line": 6
+            },
+            "line": 6
+          },
+          "line": 6
+        }
+      ],
+      "line": 7
+    }
+  ],
+  "line": 7
+}

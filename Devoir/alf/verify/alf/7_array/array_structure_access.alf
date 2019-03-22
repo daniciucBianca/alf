@@ -1,0 +1,12 @@
+{Array with class definition}
+struct school
+	property name:string;
+	property private:boolean;
+	property type:integer;
+end;
+
+list:school[1 to 9];
+
+def list_of_schools:list;
+
+list_of_schools[1].name = "School";

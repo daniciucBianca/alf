@@ -1,0 +1,10 @@
+{Access property of class}
+struct school
+	property name:string;
+	property private:boolean;
+	property type:integer;
+end;
+
+def s:school;
+
+s.name = "The new name for the school";

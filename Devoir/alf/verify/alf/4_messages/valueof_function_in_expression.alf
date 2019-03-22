@@ -1,0 +1,5 @@
+{Dispatch message in expression}
+
+def s:integer;
+
+s = sum (x:50, y:50);

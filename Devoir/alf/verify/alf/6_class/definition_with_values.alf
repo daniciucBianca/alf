@@ -1,0 +1,6 @@
+{Class definition with values}
+struct school
+	property name:string = "Public Elementary School";
+	property private:boolean = false;
+	property type:integer = 0;
+end;

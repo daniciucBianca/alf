@@ -1,0 +1,39 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "struct",
+      "title": "school",
+      "properties": [
+        {
+          "type": "string",
+          "title": "name",
+          "line": 3
+        },
+        {
+          "type": "boolean",
+          "title": "private",
+          "line": 4
+        },
+        {
+          "type": "integer",
+          "title": "type",
+          "line": 5
+        }
+      ],
+      "messages": []
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "school",
+          "title": "s",
+          "line": 8
+        }
+      ],
+      "line": 8
+    }
+  ],
+  "line": 8
+}

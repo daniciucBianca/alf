@@ -1,0 +1,5 @@
+{
+  "error": "lexical",
+  "line": 2,
+  "text": "Lexical error on line 2: Unrecognized text.\n\n  Erroneous area:\n1: {Lexical error}\n2: @54906820\n^..^"
+}

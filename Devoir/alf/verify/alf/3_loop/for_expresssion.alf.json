@@ -1,0 +1,104 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "integer",
+          "title": "n",
+          "value": {
+            "id": "value",
+            "type": "integer",
+            "value": 0,
+            "line": 3
+          },
+          "line": 3
+        }
+      ],
+      "line": 3
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "integer",
+          "title": "s",
+          "value": {
+            "id": "value",
+            "type": "integer",
+            "value": 1,
+            "line": 4
+          },
+          "line": 4
+        }
+      ],
+      "line": 4
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "integer",
+          "title": "max",
+          "value": {
+            "id": "exp",
+            "op": "*",
+            "left": {
+              "id": "value",
+              "type": "integer",
+              "value": 2,
+              "line": 5
+            },
+            "right": {
+              "id": "identifier",
+              "title": "n",
+              "line": 5
+            },
+            "line": 5
+          },
+          "line": 5
+        }
+      ],
+      "line": 5
+    },
+    {
+      "id": "for",
+      "variable": "i",
+      "exp": {
+        "id": "identifier",
+        "title": "list",
+        "line": 7
+      },
+      "statements": [
+        {
+          "id": "set",
+          "to": {
+            "id": "identifier",
+            "title": "n",
+            "line": 8
+          },
+          "from": {
+            "id": "exp",
+            "op": "+",
+            "left": {
+              "id": "identifier",
+              "title": "n",
+              "line": 8
+            },
+            "right": {
+              "id": "value",
+              "type": "integer",
+              "value": 1,
+              "line": 8
+            },
+            "line": 8
+          },
+          "line": 8
+        }
+      ],
+      "line": 9
+    }
+  ],
+  "line": 9
+}

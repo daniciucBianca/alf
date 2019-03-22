@@ -1,0 +1,24 @@
+{Prime number message}
+
+fn prime:boolean (n:integer)
+begin
+	def p:boolean = true;
+
+	for i from 2 to  sqrt(number:n) run
+		if n % i == 0 then
+			p = false;
+		end;
+	end;
+
+	return p;
+end;
+
+def v : integer;
+
+v =  read();
+
+if prime (n:v) then
+	write (text : v+" is prime");
+else
+	write (text : v+" is not prime");
+end;

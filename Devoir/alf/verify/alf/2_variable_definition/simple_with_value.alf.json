@@ -1,0 +1,23 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "integer",
+          "title": "variable",
+          "value": {
+            "id": "value",
+            "type": "integer",
+            "value": 0,
+            "line": 2
+          },
+          "line": 2
+        }
+      ],
+      "line": 2
+    }
+  ],
+  "line": 2
+}

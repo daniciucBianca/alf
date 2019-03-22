@@ -1,0 +1,19 @@
+{Event numbers from 1 to 1000}
+
+def n = 2;
+
+for n from 2 to 1000 run
+	write (text:n);
+end;
+
+loop n < 1000 run
+	write (text:n);
+	n = n + 2;
+end;
+
+n = 2;
+
+loop
+	write (text:n);
+	n = n + 2;
+when n < 1000;

@@ -1,0 +1,7 @@
+{While loop}
+
+def n : integer = 0;
+
+loop n < 100 run
+	n = n + 1;
+end;

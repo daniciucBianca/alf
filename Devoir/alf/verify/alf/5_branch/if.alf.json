@@ -1,0 +1,16 @@
+{
+  "error": "syntax",
+  "line": 5,
+  "text": "if",
+  "token": "\"IF\"",
+  "expected": [
+    "end of input",
+    "\";\"",
+    "\",\"",
+    "\"ASSIGN\"",
+    "\"FN\"",
+    "\"END\"",
+    "\"ELSE\"",
+    "\"WHEN\""
+  ]
+}

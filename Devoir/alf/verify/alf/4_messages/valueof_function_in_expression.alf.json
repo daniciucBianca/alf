@@ -1,0 +1,45 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "integer",
+          "title": "s",
+          "line": 3
+        }
+      ],
+      "line": 3
+    },
+    {
+      "id": "set",
+      "to": {
+        "id": "identifier",
+        "title": "s",
+        "line": 5
+      },
+      "from": {
+        "id": "function_call",
+        "function": "sum",
+        "parameters": {
+          "x": {
+            "id": "value",
+            "type": "integer",
+            "value": 50,
+            "line": 5
+          },
+          "y": {
+            "id": "value",
+            "type": "integer",
+            "value": 50,
+            "line": 5
+          }
+        },
+        "line": 5
+      },
+      "line": 5
+    }
+  ],
+  "line": 5
+}

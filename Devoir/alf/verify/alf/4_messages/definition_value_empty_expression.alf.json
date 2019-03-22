@@ -1,0 +1,19 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "fn",
+      "title": "print",
+      "parameters": [
+        {
+          "type": "string",
+          "id": "text",
+          "line": 3
+        }
+      ],
+      "return_type": "string",
+      "line": 3
+    }
+  ],
+  "line": 3
+}

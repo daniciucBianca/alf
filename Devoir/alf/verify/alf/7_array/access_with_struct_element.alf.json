@@ -1,0 +1,78 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "array",
+      "title": "list",
+      "element_type": "string",
+      "from": "1",
+      "to": "9",
+      "line": 2
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "auto",
+          "title": "v",
+          "value": {
+            "id": "identifier",
+            "title": "list",
+            "line": 4
+          },
+          "line": 4
+        }
+      ],
+      "line": 4
+    },
+    {
+      "id": "struct",
+      "title": "random",
+      "properties": [
+        {
+          "type": "integer",
+          "title": "position",
+          "line": 7
+        }
+      ],
+      "messages": []
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "random",
+          "title": "s",
+          "line": 10
+        }
+      ],
+      "line": 10
+    },
+    {
+      "id": "set",
+      "to": {
+        "id": "element_of_array",
+        "array": "v",
+        "index": {
+          "id": "property",
+          "object": {
+            "id": "identifier",
+            "title": "s",
+            "line": 12
+          },
+          "title": "position",
+          "line": 12
+        },
+        "line": 12
+      },
+      "from": {
+        "id": "value",
+        "type": "string",
+        "value": "The new name for the school",
+        "line": 12
+      },
+      "line": 12
+    }
+  ],
+  "line": 12
+}

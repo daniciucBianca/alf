@@ -1,0 +1,19 @@
+{
+  "id": "module",
+  "statements": [
+    {
+      "id": "function_call",
+      "function": "print",
+      "parameters": {
+        "text": {
+          "id": "value",
+          "type": "string",
+          "value": "text to write",
+          "line": 3
+        }
+      },
+      "line": 3
+    }
+  ],
+  "line": 3
+}

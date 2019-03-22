@@ -1,0 +1,7 @@
+{Repeat loop}
+
+def n:integer=0;
+
+loop 
+	n = n + 1;
+when n < 100;
