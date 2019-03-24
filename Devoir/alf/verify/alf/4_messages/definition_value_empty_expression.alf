@@ -1,3 +1,6 @@
 {Message definition with empty value}
 
-fn print:string (text:string);
+fn print:string (text:string)
+begin
+;
+end;

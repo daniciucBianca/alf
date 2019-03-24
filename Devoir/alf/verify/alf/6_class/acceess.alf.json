@@ -20,19 +20,7 @@
           "title": "type",
           "line": 5
         }
-      ],
-      "messages": []
-    },
-    {
-      "id": "def",
-      "elements": [
-        {
-          "type": "school",
-          "title": "s",
-          "line": 8
-        }
-      ],
-      "line": 8
+      ]
     },
     {
       "id": "set",
@@ -53,6 +41,17 @@
         "line": 10
       },
       "line": 10
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "school",
+          "title": "s",
+          "line": 8
+        }
+      ],
+      "line": 8
     }
   ],
   "line": 10

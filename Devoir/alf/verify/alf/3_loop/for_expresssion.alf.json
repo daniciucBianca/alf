@@ -23,23 +23,6 @@
       "elements": [
         {
           "type": "integer",
-          "title": "s",
-          "value": {
-            "id": "value",
-            "type": "integer",
-            "value": 1,
-            "line": 4
-          },
-          "line": 4
-        }
-      ],
-      "line": 4
-    },
-    {
-      "id": "def",
-      "elements": [
-        {
-          "type": "integer",
           "title": "max",
           "value": {
             "id": "exp",
@@ -70,34 +53,25 @@
         "title": "list",
         "line": 7
       },
-      "statements": [
+      "statements": "run",
+      "line": 9
+    },
+    {
+      "id": "def",
+      "elements": [
         {
-          "id": "set",
-          "to": {
-            "id": "identifier",
-            "title": "n",
-            "line": 8
+          "type": "integer",
+          "title": "s",
+          "value": {
+            "id": "value",
+            "type": "integer",
+            "value": 1,
+            "line": 4
           },
-          "from": {
-            "id": "exp",
-            "op": "+",
-            "left": {
-              "id": "identifier",
-              "title": "n",
-              "line": 8
-            },
-            "right": {
-              "id": "value",
-              "type": "integer",
-              "value": 1,
-              "line": 8
-            },
-            "line": 8
-          },
-          "line": 8
+          "line": 4
         }
       ],
-      "line": 9
+      "line": 4
     }
   ],
   "line": 9

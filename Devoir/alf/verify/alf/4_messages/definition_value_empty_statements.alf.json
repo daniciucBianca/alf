@@ -2,7 +2,7 @@
   "id": "module",
   "statements": [
     {
-      "id": "message",
+      "id": "function_call",
       "title": "print",
       "parameters": [
         {

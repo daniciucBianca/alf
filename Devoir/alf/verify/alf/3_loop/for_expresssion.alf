@@ -4,6 +4,6 @@ def n:integer = 0;
 def s:integer = 1;
 def max:integer = 2*n;
 
-for i in list
+for i in list run
 	n = n + 1;
 end;

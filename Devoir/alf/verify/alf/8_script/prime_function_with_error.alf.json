@@ -1,5 +1,9 @@
 {
-  "id": "module",
-  "statements": [],
-  "line": 1
+  "error": "syntax",
+  "line": 23,
+  "text": "",
+  "token": "end of input",
+  "expected": [
+    "\"END\""
+  ]
 }

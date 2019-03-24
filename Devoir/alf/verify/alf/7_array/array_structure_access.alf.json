@@ -20,16 +20,7 @@
           "title": "type",
           "line": 5
         }
-      ],
-      "messages": []
-    },
-    {
-      "id": "array",
-      "title": "list",
-      "element_type": "school",
-      "from": "1",
-      "to": "9",
-      "line": 8
+      ]
     },
     {
       "id": "def",
@@ -67,6 +58,14 @@
         "line": 12
       },
       "line": 12
+    },
+    {
+      "id": "array",
+      "title": "list",
+      "element_type": "school",
+      "from": "1",
+      "to": "9",
+      "line": 8
     }
   ],
   "line": 12

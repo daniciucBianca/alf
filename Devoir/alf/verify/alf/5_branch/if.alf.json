@@ -1,16 +1,64 @@
 {
-  "error": "syntax",
-  "line": 5,
-  "text": "if",
-  "token": "\"IF\"",
-  "expected": [
-    "end of input",
-    "\";\"",
-    "\",\"",
-    "\"ASSIGN\"",
-    "\"FN\"",
-    "\"END\"",
-    "\"ELSE\"",
-    "\"WHEN\""
-  ]
+  "id": "module",
+  "statements": [
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "integer",
+          "title": "n",
+          "line": 3
+        }
+      ],
+      "line": 3
+    },
+    {
+      "id": "if",
+      "exp": {
+        "id": "exp",
+        "op": ">",
+        "left": {
+          "id": "identifier",
+          "title": "n",
+          "line": 5
+        },
+        "right": {
+          "id": "value",
+          "type": "integer",
+          "value": 2,
+          "line": 5
+        },
+        "line": 5
+      },
+      "then": [
+        {
+          "id": "set",
+          "to": {
+            "id": "identifier",
+            "title": "n",
+            "line": 6
+          },
+          "from": {
+            "id": "exp",
+            "op": "+",
+            "left": {
+              "id": "identifier",
+              "title": "n",
+              "line": 6
+            },
+            "right": {
+              "id": "value",
+              "type": "integer",
+              "value": 1,
+              "line": 6
+            },
+            "line": 6
+          },
+          "line": 6
+        }
+      ],
+      "line": 7
+    }
+  ],
+  "line": 7
 }

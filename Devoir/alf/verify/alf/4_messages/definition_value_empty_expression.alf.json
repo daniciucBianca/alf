@@ -2,7 +2,7 @@
   "id": "module",
   "statements": [
     {
-      "id": "fn",
+      "id": "function_call",
       "title": "print",
       "parameters": [
         {
@@ -12,8 +12,13 @@
         }
       ],
       "return_type": "string",
-      "line": 3
+      "statements": [
+        {
+          "type": "empty"
+        }
+      ],
+      "line": 6
     }
   ],
-  "line": 3
+  "line": 6
 }

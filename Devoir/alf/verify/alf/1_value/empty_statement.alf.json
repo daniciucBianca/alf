@@ -1,5 +1,9 @@
 {
   "id": "module",
-  "statements": [],
+  "statements": [
+    {
+      "type": "empty"
+    }
+  ],
   "line": 1
 }

@@ -19,37 +19,6 @@
       "line": 3
     },
     {
-      "id": "for",
-      "variable": "n",
-      "from": {
-        "id": "value",
-        "type": "integer",
-        "value": 2,
-        "line": 5
-      },
-      "to": {
-        "id": "value",
-        "type": "integer",
-        "value": 1000,
-        "line": 5
-      },
-      "statements": [
-        {
-          "id": "function_call",
-          "function": "write",
-          "parameters": {
-            "text": {
-              "id": "identifier",
-              "title": "n",
-              "line": 6
-            }
-          },
-          "line": 6
-        }
-      ],
-      "line": 7
-    },
-    {
       "id": "loop_run",
       "exp": {
         "id": "exp",
@@ -109,21 +78,6 @@
       "line": 12
     },
     {
-      "id": "set",
-      "to": {
-        "id": "identifier",
-        "title": "n",
-        "line": 14
-      },
-      "from": {
-        "id": "value",
-        "type": "integer",
-        "value": 2,
-        "line": 14
-      },
-      "line": 14
-    },
-    {
       "id": "loop_when",
       "exp": {
         "id": "exp",
@@ -181,6 +135,52 @@
         }
       ],
       "line": 19
+    },
+    {
+      "id": "set",
+      "to": {
+        "id": "identifier",
+        "title": "n",
+        "line": 14
+      },
+      "from": {
+        "id": "value",
+        "type": "integer",
+        "value": 2,
+        "line": 14
+      },
+      "line": 14
+    },
+    {
+      "id": "for",
+      "variable": "n",
+      "from": {
+        "id": "value",
+        "type": "integer",
+        "value": 2,
+        "line": 5
+      },
+      "to": {
+        "id": "value",
+        "type": "integer",
+        "value": 1000,
+        "line": 5
+      },
+      "statements": [
+        {
+          "id": "function_call",
+          "function": "write",
+          "parameters": {
+            "text": {
+              "id": "identifier",
+              "title": "n",
+              "line": 6
+            }
+          },
+          "line": 6
+        }
+      ],
+      "line": 7
     }
   ],
   "line": 19

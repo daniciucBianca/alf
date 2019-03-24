@@ -10,22 +10,6 @@
       "line": 2
     },
     {
-      "id": "def",
-      "elements": [
-        {
-          "type": "auto",
-          "title": "v",
-          "value": {
-            "id": "identifier",
-            "title": "list",
-            "line": 4
-          },
-          "line": 4
-        }
-      ],
-      "line": 4
-    },
-    {
       "id": "struct",
       "title": "random",
       "properties": [
@@ -34,19 +18,7 @@
           "title": "position",
           "line": 7
         }
-      ],
-      "messages": []
-    },
-    {
-      "id": "def",
-      "elements": [
-        {
-          "type": "random",
-          "title": "s",
-          "line": 10
-        }
-      ],
-      "line": 10
+      ]
     },
     {
       "id": "set",
@@ -72,6 +44,33 @@
         "line": 12
       },
       "line": 12
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "random",
+          "title": "s",
+          "line": 10
+        }
+      ],
+      "line": 10
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "auto",
+          "title": "v",
+          "value": {
+            "id": "identifier",
+            "title": "list",
+            "line": 4
+          },
+          "line": 4
+        }
+      ],
+      "line": 4
     }
   ],
   "line": 12

@@ -17,6 +17,11 @@
         }
       ],
       "return_type": "integer",
+      "statements": [
+        {
+          "type": "empty"
+        }
+      ],
       "line": 4
     }
   ],

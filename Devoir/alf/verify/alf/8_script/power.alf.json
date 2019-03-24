@@ -2,7 +2,7 @@
   "id": "module",
   "statements": [
     {
-      "id": "message",
+      "id": "function_call",
       "title": "power",
       "parameters": [
         {
@@ -34,6 +34,15 @@
             }
           ],
           "line": 5
+        },
+        {
+          "id": "return",
+          "value": {
+            "id": "identifier",
+            "title": "a",
+            "line": 9
+          },
+          "line": 9
         },
         {
           "id": "for",
@@ -76,35 +85,9 @@
             }
           ],
           "line": 8
-        },
-        {
-          "id": "return",
-          "value": {
-            "id": "identifier",
-            "title": "a",
-            "line": 9
-          },
-          "line": 9
         }
       ],
       "line": 10
-    },
-    {
-      "id": "def",
-      "elements": [
-        {
-          "type": "auto",
-          "title": "n",
-          "value": {
-            "id": "value",
-            "type": "integer",
-            "value": 0,
-            "line": 12
-          },
-          "line": 12
-        }
-      ],
-      "line": 12
     },
     {
       "id": "set",
@@ -133,6 +116,23 @@
         "line": 14
       },
       "line": 14
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "auto",
+          "title": "n",
+          "value": {
+            "id": "value",
+            "type": "integer",
+            "value": 0,
+            "line": 12
+          },
+          "line": 12
+        }
+      ],
+      "line": 12
     }
   ],
   "line": 14

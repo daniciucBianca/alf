@@ -4,11 +4,9 @@
   "text": "#",
   "token": "#",
   "expected": [
-    "end of input",
     "\";\"",
     "\"(\"",
     "\"-\"",
-    "\"message\"",
     "\"NOT\"",
     "\"NUMBER\"",
     "\"STRING_VALUE\"",
