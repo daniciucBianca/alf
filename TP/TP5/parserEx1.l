@@ -1,5 +1,5 @@
 Ws                      \s+
-Real_number             [0-9]+\.[0-9]+ 
+Real_number             [0-9]+\.[0-9]+
 Integer_number          [0-9]+
 String_value            \"[^\"]+\"|\'[^\']+\'
 Identifier              [A-Za-z][A-Za-z0-9]*
