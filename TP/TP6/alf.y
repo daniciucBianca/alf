@@ -43,5 +43,5 @@ variables:	IDENTIFIER ',' variables
 			}
 		    | IDENTIFIER 
 			{
-				$$ = token ('IDENTIFIER', $1);
+				$$ = rule ('varuables', [token ('IDENTIFIER', $1)]);
 			};
