@@ -1,16 +1,15 @@
 {If then else imbricate}
-#reg:ter P 1
-#register S 2
+#register P 2
+#register S 3
 
 #if P = 1
-	[module print text : "Print text "+P]
+	print (text : "Print text " + P );
 	#if S = 2
-		[module print text : "Print text "+S]
+		print (text : "Print text " + S );
 	#endif
 #else
-	[module print text : "Print text "+P]
+	print (text : "Print text " + P );
 	#if S != 2
-		[module print text : "Print text "+S]
+		print (text : "Print text " + S );
 	#endif
 #endif
-

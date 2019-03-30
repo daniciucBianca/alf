@@ -3,5 +3,5 @@
 #register P 1
 
 #if P = 1
-[module print text:"Print text "+P]
+print (text:"Print text " + P );
 #endif

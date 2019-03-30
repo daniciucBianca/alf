@@ -23,6 +23,23 @@
       "elements": [
         {
           "type": "integer",
+          "title": "s",
+          "value": {
+            "id": "value",
+            "type": "integer",
+            "value": 1,
+            "line": 4
+          },
+          "line": 4
+        }
+      ],
+      "line": 4
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "integer",
           "title": "max",
           "value": {
             "id": "exp",
@@ -55,23 +72,6 @@
       },
       "statements": "run",
       "line": 9
-    },
-    {
-      "id": "def",
-      "elements": [
-        {
-          "type": "integer",
-          "title": "s",
-          "value": {
-            "id": "value",
-            "type": "integer",
-            "value": 1,
-            "line": 4
-          },
-          "line": 4
-        }
-      ],
-      "line": 4
     }
   ],
   "line": 9

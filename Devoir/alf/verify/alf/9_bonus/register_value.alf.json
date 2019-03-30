@@ -1,44 +1,19 @@
 {
-  "error": "syntax",
-  "line": 3,
-  "text": "#",
-  "token": "#",
-  "expected": [
-    "\";\"",
-    "\"(\"",
-    "\"-\"",
-    "\"NOT\"",
-    "\"NUMBER\"",
-    "\"STRING_VALUE\"",
-    "\"SYMBOL\"",
-    "\"LOGIC_VALUE\"",
-    "\"IDENTIFIER\"",
-    "\"NONE\"",
-    "\"RETURN\"",
-    "\"DEFINE\"",
-    "\"FN\"",
-    "\"STRUCT\"",
-    "\"IF\"",
-    "\"LOOP\"",
-    "\"FOR\"",
-    "\"start\"",
-    "\"compilationUnit\"",
-    "\"statements\"",
-    "\"value\"",
-    "\"returnExpr\"",
-    "\"variable\"",
-    "\"variableAssign\"",
-    "\"array\"",
-    "\"arrayAssign\"",
-    "\"arrayAccess\"",
-    "\"propertyAccess\"",
-    "\"functionDeclaration\"",
-    "\"functionRun\"",
-    "\"function\"",
-    "\"struct\"",
-    "\"if\"",
-    "\"loop\"",
-    "\"repeat\"",
-    "\"for\""
-  ]
+  "id": "module",
+  "statements": [
+    {
+      "id": "function_call",
+      "function": "print",
+      "parameters": {
+        "text": {
+          "id": "value",
+          "type": "integer",
+          "value": 100,
+          "line": 5
+        }
+      },
+      "line": 5
+    }
+  ],
+  "line": 5
 }

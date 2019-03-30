@@ -1,9 +1,9 @@
 {If then else with error}
 
-#register P 1
+#register P 2
 
 #if P = 1
-[module print text:"Print text "+P]
+print (text:"Print text "+ P );
 #else
-[module print text:"Print text "+P]
+print (text:"Print text "+  );
 #endif

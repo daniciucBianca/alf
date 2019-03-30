@@ -1,5 +1,15 @@
-{Message}
+{If then else imbricate 2}
+#register P 1
+#register S 2
 
-#register write [module print text :
-
-write "Text" ]
+#if P = 1
+	print (text : "Print text " + P );
+	#if S = 2
+		print (text : "Print text " + S );
+	#endif
+#else
+	print (text : "Print text " + P );
+	#if S != 2
+		print (text : "Print text " + S );
+	#endif
+#endif

@@ -2,5 +2,4 @@
 
 #register NUMBER 100
 
-[module print text:NUMBER]
-
+print (text: NUMBER );

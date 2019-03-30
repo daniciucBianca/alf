@@ -10,6 +10,17 @@
       "line": 2
     },
     {
+      "id": "def",
+      "elements": [
+        {
+          "type": "list",
+          "title": "v",
+          "line": 4
+        }
+      ],
+      "line": 4
+    },
+    {
       "id": "set",
       "to": {
         "id": "element_of_array",
@@ -29,17 +40,6 @@
         "line": 6
       },
       "line": 6
-    },
-    {
-      "id": "def",
-      "elements": [
-        {
-          "type": "list",
-          "title": "v",
-          "line": 4
-        }
-      ],
-      "line": 4
     }
   ],
   "line": 6

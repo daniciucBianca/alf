@@ -1,5 +1,5 @@
 {String}
 
-#register TEXT "This is text"
+#register TEXT "text"
 
-[module print text : TEXT]
+print (text : TEXT ); 

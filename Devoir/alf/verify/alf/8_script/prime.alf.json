@@ -13,7 +13,39 @@
       "line": 3
     },
     {
+      "id": "set",
+      "to": {
+        "id": "identifier",
+        "title": "n",
+        "line": 5
+      },
+      "from": {
+        "id": "function_call",
+        "function": "read",
+        "parameters": [],
+        "line": 5
+      },
+      "line": 5
+    },
+    {
       "type": "empty"
+    },
+    {
+      "id": "def",
+      "elements": [
+        {
+          "type": "boolean",
+          "title": "p",
+          "value": {
+            "id": "value",
+            "type": "logic",
+            "value": true,
+            "line": 7
+          },
+          "line": 7
+        }
+      ],
+      "line": 7
     },
     {
       "id": "for",
@@ -145,38 +177,6 @@
         }
       ],
       "line": 19
-    },
-    {
-      "id": "def",
-      "elements": [
-        {
-          "type": "boolean",
-          "title": "p",
-          "value": {
-            "id": "value",
-            "type": "logic",
-            "value": true,
-            "line": 7
-          },
-          "line": 7
-        }
-      ],
-      "line": 7
-    },
-    {
-      "id": "set",
-      "to": {
-        "id": "identifier",
-        "title": "n",
-        "line": 5
-      },
-      "from": {
-        "id": "function_call",
-        "function": "read",
-        "parameters": [],
-        "line": 5
-      },
-      "line": 5
     }
   ],
   "line": 19
