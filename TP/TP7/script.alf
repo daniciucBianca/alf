@@ -1,0 +1,5 @@
+var a of int
+a=10
+function f ()
+var s of int
+endfunction
