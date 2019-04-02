@@ -1,2 +1,2 @@
 {Variable definition list}
-def n : integer, r : real, l : boolean, s : string ;
+def n : integer, r : real, l : logic, s : string ;
