@@ -15,10 +15,14 @@ cd "$dir"
 if [ -d node_modules ];
 then
 	echo 'Please delete the node_modules folder from your homework archive'
-elif [ ! -f grammar.jison ];
+elif [ ! -f grammar.l ];
 then
-	echo 'The grammar.jison file is missing'
-	echo 'Please add a grammar.jison file to you homework archive.'
+	echo 'The grammar.l file is missing'
+	echo 'Please add a grammar.l file to you homework archive.'
+elif [ ! -f grammar.y ];
+then
+	echo 'The grammar.y file is missing'
+	echo 'Please add a grammar.y file to you homework archive.'
 elif [ ! -f package.json ];
 then
 	echo 'The package.json file is missing'
@@ -48,9 +52,9 @@ else
 	elif ! jshint *.js;
 	then
 		echo "Please review your code, you have jshint errors"
-	elif ! jison grammar.jison -o grammar.js
+	elif ! jison grammar.y grammar.l -o grammar.js
 	then
-		echo "Please review your jiosn file, you have errors"
+		echo "Please review your l and y files, you have errors"
 	else
 		cd -
 
