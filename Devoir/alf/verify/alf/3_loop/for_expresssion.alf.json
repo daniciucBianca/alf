@@ -70,7 +70,33 @@
         "title": "list",
         "line": 7
       },
-      "statements": "run",
+      "statements": [
+        {
+          "id": "set",
+          "to": {
+            "id": "identifier",
+            "title": "n",
+            "line": 8
+          },
+          "from": {
+            "id": "exp",
+            "op": "+",
+            "left": {
+              "id": "identifier",
+              "title": "n",
+              "line": 8
+            },
+            "right": {
+              "id": "value",
+              "type": "integer",
+              "value": 1,
+              "line": 8
+            },
+            "line": 8
+          },
+          "line": 8
+        }
+      ],
       "line": 9
     }
   ],
