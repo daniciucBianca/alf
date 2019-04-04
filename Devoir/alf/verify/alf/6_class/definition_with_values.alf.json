@@ -17,7 +17,7 @@
           "line": 3
         },
         {
-          "type": "boolean",
+          "type": "logic",
           "title": "private",
           "value": {
             "id": "value",

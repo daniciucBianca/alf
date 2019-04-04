@@ -1,8 +1,8 @@
 {Prime number function with error}
 
-fn prime:boolean (n : integer)
+fn prime:logic (n : integer)
 begin
-	def p : boolean = true;
+	def p : logic = true;
 
 	for i from 2 to  sqrt (number : n)
 		if n % i == 0 then

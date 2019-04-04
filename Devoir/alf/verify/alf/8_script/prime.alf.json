@@ -34,7 +34,7 @@
       "id": "def",
       "elements": [
         {
-          "type": "boolean",
+          "type": "logic",
           "title": "p",
           "value": {
             "id": "value",

@@ -1,7 +1,7 @@
 {Variable declaration of type}
 struct school
 	property name:string;
-	property private:boolean;
+	property private:logic;
 	property type:integer;
 end;
 

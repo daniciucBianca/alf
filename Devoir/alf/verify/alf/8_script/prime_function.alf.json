@@ -11,13 +11,13 @@
           "line": 3
         }
       ],
-      "return_type": "boolean",
+      "return_type": "logic",
       "statements": [
         {
           "id": "def",
           "elements": [
             {
-              "type": "boolean",
+              "type": "logic",
               "title": "p",
               "value": {
                 "id": "value",

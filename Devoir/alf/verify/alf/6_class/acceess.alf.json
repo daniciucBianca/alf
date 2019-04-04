@@ -11,7 +11,7 @@
           "line": 3
         },
         {
-          "type": "boolean",
+          "type": "logic",
           "title": "private",
           "line": 4
         },
