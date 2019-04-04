@@ -7,8 +7,7 @@
       "parameters": [
         {
           "type": "string",
-          "id": "text",
-          "line": 3
+          "name": "text"
         }
       ],
       "return_type": "string",

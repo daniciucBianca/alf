@@ -7,13 +7,11 @@
       "parameters": [
         {
           "type": "integer",
-          "id": "a",
-          "line": 3
+          "name": "a"
         },
         {
           "type": "integer",
-          "id": "n",
-          "line": 3
+          "name": "n"
         }
       ],
       "return_type": "integer",

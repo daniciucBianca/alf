@@ -7,8 +7,7 @@
       "parameters": [
         {
           "type": "integer",
-          "id": "n",
-          "line": 3
+          "name": "n"
         }
       ],
       "return_type": "logic",
