@@ -2,7 +2,7 @@
   "id": "module",
   "statements": [
     {
-      "id": "function_call",
+      "id": "fn",
       "title": "sum",
       "parameters": [
         {
