@@ -2,7 +2,7 @@
 
 def n : integer;
 
-n =  read();;
+n =  read();
 
 def p : logic = true;
 
